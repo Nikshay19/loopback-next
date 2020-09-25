@@ -34,7 +34,7 @@ You can debug tests by running mocha commands as documented on page
 ### Binding key not bound error
 
 With high extensibility, a LoopBack application usually contains tens of
-bindings. It usually take a few iterations to setup all of them. A common seen
+bindings. It usually take a few iterations to setup all of them. A commonly seen
 binding error is "a binding key not bound", for example:
 
 ```
@@ -79,6 +79,10 @@ See more details in
 
 If the binding is exported by a component, ensure the component is installed and
 binding is imported correctly.
+
+4. Compiled files not updated.
+
+See section [compiled files not updated](#compiled-files-not-updated).
 
 ### Compiled Files not Updated
 
