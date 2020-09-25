@@ -29,9 +29,9 @@ debug mode by starting your application using `DEBUG=<DEBUG_STRING> npm start`.
 You can debug tests by running mocha commands as documented on page
 [Debugging with Mocha tests](Debugging-tests-with-mocha.md).
 
-## Resolving Common Seen Errors
+## Resolving Commonly Found Errors
 
-### Binding Error
+### Binding key not bound error
 
 With high extensibility, a LoopBack application usually contains tens of
 bindings. It usually take a few iterations to setup all of them. A common seen
